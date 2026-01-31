@@ -92,7 +92,7 @@ function generateCheckoutHTML() {
       <div class="cart-item-display-3">
         <p>Qty: ${item.quantity}</p>
       </div>
-      <hr>
+      <!-- <hr> -->
     `;
 
     totalQty += item.quantity;
@@ -158,4 +158,5 @@ function proceedToPay() {
 }
 
 proceedToPay();
+
 generateCheckoutHTML();
