@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(242, 238, 239);
+}
+
+.order-history-main {
+  margin: 120px auto;
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  border-radius: 8px;
+}
+
+.order-history-main h1 {
+  margin-bottom: 20px;
+}
+
+.order-card {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 15px 0;
+}
+
+.order-card:last-child {
+  border-bottom: none;
+}
+
+.order-card h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.order-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}

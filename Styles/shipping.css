@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(242, 238, 239);
+}
+
+.shipping-main {
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  width: 60%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.shipping-info, .shipping-options, .shipping-summary {
+  margin-bottom: 20px;
+}
+
+.shipping-options label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.place-order-btn {
+  background-color: #f85606;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.place-order-btn:hover {
+  opacity: 0.8;
+}

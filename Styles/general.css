@@ -1,0 +1,27 @@
+body {
+  font-family: Roboto-Regular, Helvetica Neue, Helvetica, Tahoma, Arial, Sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-order-history {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.order-history-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.order-history-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; 
+}

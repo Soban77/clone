@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order History - Daraz Clone</title>
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/order-history.css">
+  </head>
+  <body>
+    <nav class="head">
+      <div class="head-1">
+        <a href="index.html">
+          <img src="Images/Icons/X-icon.png">
+          <h1>Daraz</h1>
+        </a>
+      </div>
+      <div class="head-2">
+        <div class="search-conatiner">
+          <input class="search-input" placeholder="Search in Daraz" type="text">
+          <img class="search" src="Images/Icons/Search-icon.png">
+        </div>
+        <a href="cart.html">
+          <img class="cart" src="Images/Icons/cart-icon.png">
+        </a>
+        <div class="nav-order-history">
+          <a href="order-history.html" class="order-history-link">
+            <img src="data:image/png;base64,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" alt="Order History">
+            <span>Order History</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="order-history-main">
+      <h1>Your Orders</h1>
+      <div class="js-order-history"></div>
+    </section>
+
+    <script src="Scripts/order-history.js" type="module"></script>
+  </body>
+</html>
